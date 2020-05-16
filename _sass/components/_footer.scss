@@ -1,0 +1,33 @@
+.site-footer {
+    font-size: $font-size-sm;
+
+    a {
+        color: inherit;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    .social-media-list {
+        list-style: none;
+    }
+
+    .icon--github~.username {
+        display: none;
+    }
+
+    // .svg-icon {
+    //     width: 16px;
+    //     height: 16px;
+    // }
+
+    .icon {
+        svg {
+            height: 40px;
+            width: auto;
+            margin: 10px;
+        }
+    }
+}
+

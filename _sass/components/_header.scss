@@ -1,0 +1,37 @@
+$header-extra-font-path: "https://fonts.googleapis.com/css?family=Allerta+Stencil" !default;
+@import url($header-extra-font-path);
+
+.site-header {
+    // border-top: 5px solid $secondary;
+    border-bottom: 2px solid $primary;
+    min-height: $line-height-base * 1.865;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+
+    top: 0;
+
+    background: $light;
+
+    z-index: 999;
+}
+
+.site-title {
+    font-weight: 300;
+    // line-height: $line-height-base * $h1-font-size * 2.25;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+    font-size: $font-size-lg * 1.5;
+    img {
+        max-height: 50px;
+    }
+    @media screen and (max-width: 576px) {
+        span {
+            display: none;
+        }
+    }
+
+    font-family: "Allerta Stencil";
+    line-height: 50px;
+}

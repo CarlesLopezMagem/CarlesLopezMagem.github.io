@@ -1,0 +1,19 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+image: '/assets/img/banners/blog.jpg'
+---
+
+
+{%- if site.posts.size > 0 -%}
+<!-- <h2 class="post-list-heading">{{ page.list_title | default: "Últimes publicacions" }}</h2> -->
+<div class="card-columns">
+    {%- for post in site.posts -%}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- include card-post.html post=post -%}
+    {%- endfor -%}
+</div>
+
+<!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+{%- endif -%}
