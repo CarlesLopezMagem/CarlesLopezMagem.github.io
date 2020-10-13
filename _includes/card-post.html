@@ -2,6 +2,8 @@
 <div class="card h-100 post-card">
     {%- if include.post.image -%}
     <img data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{include.post.image}}" class="card-img-top lazyload" alt="{{include.post.title}}">
+    {%- elsif include.post.image_folder -%}
+    <img data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{incinclude.post.image_folder}}/original.jpg" data-srcset="{{include.post.image_folder}}/480.jpg 480w, {{include.post.image_folder}}/960.jpg 960w, {{include.post.image_folder}}/1440.jpg 1440w, {{include.post.image_folder}}/1920.jpg 1920w" class="lazyload">
     {%- endif -%}
     <div class="card-body">
       <div class="row h-100">

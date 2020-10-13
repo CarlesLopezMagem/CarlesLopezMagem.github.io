@@ -2,7 +2,7 @@
 layout: page
 title: El projecte
 permalink: /el-projecte/
-image: '/assets/img/banners/construction.jpg'
+image_folder: '/assets/img/banners/construction'
 ---
 
 Estic segur que totes i tots hem sentit a parlar de que Facebook, Amazon i Google espien als sus usuaris per vendre les seves dades i com s'utilitzen aquestes dades per manipular opinions de la societat. Segur que també hem sentit mil cops que Apple dissenya els seus dispositius amb una vida útil limitada, conegut com obsolescència programada, o que Microsoft exerceix grans monopolis als seus sectors. Però, tot i saber això, la majoria de nosaltres no fem res per evitar-ho, pensem que no tenim capacitat per fer-hi res o que no hi ha cap altra alternativa. Tots aquests fets ja fa temps que em generen una inquietud que no puc ignorar...
