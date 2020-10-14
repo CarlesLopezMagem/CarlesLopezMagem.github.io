@@ -1,9 +1,9 @@
 <div class="banner">
     <div class="background">
         {%- if include.image -%}
-        <img data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{include.image}}" class="lazyload">
+        <img src="{{include.image}}" loading="lazy">
         {%- elsif include.image_folder -%}
-        <img data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{include.image_folder}}/original.jpg" data-srcset="{{include.image_folder}}/480.jpg 480w, {{include.image_folder}}/960.jpg 960w, {{include.image_folder}}/1440.jpg 1440w, {{include.image_folder}}/1920.jpg 1920w" class="lazyload">
+        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="{{include.image_folder}}/480.jpg 480w, {{include.image_folder}}/960.jpg 960w, {{include.image_folder}}/1440.jpg 1440w, {{include.image_folder}}/1920.jpg 1920w" loadyng="lazy">
         {%- endif -%}
     </div>
     <div class="overlay"></div>
