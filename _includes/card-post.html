@@ -3,7 +3,7 @@
   {%- if include.post.image -%}
     <img src="{{include.post.image}}" class="card-img-top" alt="{{include.post.title}}" loading="lazy" width="100%">
     {%- elsif include.post.image_folder -%}
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="{{include.post.image_folder}}/480.jpg 480w, {{include.post.image_folder}}/960.jpg 960w" class="card-img-top" alt="{{include.post.title}}" loading="lazy" width="100%">
+    <img src="{{include.post.image_folder}}/480.jpg" class="card-img-top" alt="{{include.post.title}}" loading="lazy" width="100%">
     {%- endif -%}
     <div class="card-body">
       <div class="row h-100">
