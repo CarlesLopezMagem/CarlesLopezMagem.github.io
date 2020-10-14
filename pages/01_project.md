@@ -1,7 +1,7 @@
 ---
 layout: page
 title: El projecte
-permalink: /el-projecte/
+permalink: /projecte/
 image_folder: '/assets/img/banners/construction'
 ---
 

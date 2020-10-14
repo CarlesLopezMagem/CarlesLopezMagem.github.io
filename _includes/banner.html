@@ -1,9 +1,9 @@
 <div class="banner">
     <div class="background">
-        {%- if include.image -%}
-        <img src="{{include.image}}" loading="lazy">
-        {%- elsif include.image_folder -%}
+        {%- if include.image_folder -%}
         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="{{include.image_folder}}/480.jpg 480w, {{include.image_folder}}/960.jpg 960w, {{include.image_folder}}/1440.jpg 1440w, {{include.image_folder}}/1920.jpg 1920w" sizes="(max-width:960px): 480px, (min-width: 960px) and (max-width:1440px): 960px, (min-width: 1440px) and (max-width: 1920px): 1440px,(min-width:1920px): 1920px" loadyng="lazy">
+        {%- elsif include.image -%}
+        <img src="{{include.image}}" loading="lazy">
         {%- endif -%}
     </div>
     <div class="overlay"></div>
