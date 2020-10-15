@@ -2,8 +2,8 @@
 layout: default
 image_folder: '/assets/img/banners/code'
 ---
-
-{%- include banner.html image=page.image image_folder=page.image_folder title=site.author subtitle=site.author_description -%}
+{% capture author_name %}{{site.author.name | default: site.author}}{% endcapture %}
+{%- include banner.html image=page.image image_folder=page.image_folder title=author_name subtitle=site.author.description -%}
 
 <main class="page-content" aria-label="Content">
   <div class="container">

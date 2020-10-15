@@ -24,7 +24,7 @@ lang: cat
 author: 
   name: Carles López Magem
   twitter: lopezmagem
-author_description: Desenvolupador Web
+  description: Desenvolupador Web
 email: carleslopezmagem@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Em dic Carles López Magem i aquesta és la meva pàgina professional/personal.

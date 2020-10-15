@@ -10,8 +10,10 @@ image_folder: '/assets/img/banners/about'
             <div class="image">
                 <img class="mb-3" src="{{ "/assets/img/author.jpg" | relative_url }}">
             </div>
-            <h3 class="author">{{site.author}}</h3>
-            <p class="description">{{site.author_description}}</p>
+            <h3 class="author">{{site.author.name | default: site.author}}</h3>
+            {%- if site.author.description -%}
+            <p class="description">{{site.author.description}}</p>
+            {%- endif -%}
             <p><i class="fas fa-home"></i> Artés - Barcelona</p>
             <p><i class="fas fa-calendar-alt"></i> 10/11/1992</p>
             {%- include social.html -%}
