@@ -1,0 +1,10 @@
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" defer></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" defer></script>
+
+{% if include.use_lazysizes or page.use_lazysizes or site.use_lazysizes %}
+<script src="/assets/js/lazysizes.min.js" async></script>
+{% endif %}
+{%- if include.use_fontawesome or page.use_fontawesome or site.use_fontawesome -%}
+<script src="/assets/js/fontawesome.min.js" async></script>
+{%- endif -%}

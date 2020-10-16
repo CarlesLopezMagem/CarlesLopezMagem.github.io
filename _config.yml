@@ -32,16 +32,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lesquerra.cat" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: LopezMagem
 github_username:  CarlesLopezMagem
-instagram_username: lopezmagem
+instagram_username: carles.lm
 linkedin_username: carles-lópez-magem-352711109
 show_excerpts: true
-social:
-  name: Carles López Magem
-  links:
-    - https://twitter.com/LopezMagem
-    - https://www.instagram.com/lopezmagem/
-    - https://www.linkedin.com/in/carles-l%C3%B3pez-magem-352711109
-    - https://github.com/CarlesLopezMagem
 
 logo: /assets/logo.png
 webmaster_verifications:
